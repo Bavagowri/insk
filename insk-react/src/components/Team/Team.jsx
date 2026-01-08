@@ -74,7 +74,7 @@ export default function ContactUs() {
     
     try {
       // Create mailto link with form data
-      const mailtoLink = `mailto:david.lim@lokkaads.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      const mailtoLink = `mailto:inskoffice@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       )}`;
       
@@ -105,7 +105,7 @@ export default function ContactUs() {
 
             <div className="contact-info">
               <a href="mailto:david.lim@lokkaads.com" className="contact-email">
-                david.lim@lokkaads.com
+                inskoffice@gmail.com
               </a>
               <a href="tel:+8801750050088" className="contact-phone">
                 +88 01750050088
