@@ -101,16 +101,18 @@ export default function ContactUs() {
           <div className="contact-left">
             <h2>Contact Us</h2>
 
-            <h3>Feel free to ask anything Anytime Just Contact</h3>
+            <h3>Feel free to ask <span className="gradient-text">anything, anytime.</span> <br></br> Just Contact</h3>
 
             <div className="contact-info">
-              <a href="mailto:david.lim@lokkaads.com" className="contact-email">
-                inskoffice@gmail.com
-              </a>
-              <a href="tel:+8801750050088" className="contact-phone">
-                +88 01750050088
-              </a>
-            </div>
+  <a href="mailto:inskoffice@gmail.com" className="contact-email">
+    <i className="ri-mail-line"></i>
+    inskoffice@gmail.com
+  </a>
+  <a href="tel:+94760685652" className="contact-phone">
+    <i className="ri-phone-line"></i>
+    +94 760685652
+  </a>
+</div>
           </div>
 
           <div className="contact-right">

@@ -35,6 +35,8 @@
   background: #fff;
   cursor: pointer;
   font-weight: 600;
+  font-size: larger;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 .country-tabs button.active {
@@ -42,6 +44,7 @@
   color: #fff;
   border: none;
 }
+
 
 /* ===================== */
 /* Job Cards */
@@ -277,9 +280,11 @@ h1 {
 
 .gradient-text {
   background: linear-gradient(90deg, #ff8a00, #e52e71);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;          /* standard property */
+  -webkit-background-clip: text;  /* WebKit browsers */
+  -webkit-text-fill-color: transparent; /* makes text show the gradient */
 }
+
 
 p {
   font-size: 1.2rem;
@@ -301,6 +306,10 @@ p {
 .cta-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn1 i {
+  margin-right: 8px;
 }
 
 /* Responsive */
