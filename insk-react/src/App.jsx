@@ -12,6 +12,8 @@ import Footer from "./components/Footer/Footer";
 import Process from './components/Process/Process';
 import Home from "./pages/Home";
 import Careers from "./pages/Careers";
+import JobDetails from "./pages/JobDetails";
+
 
 export default function App() {
   return (
@@ -20,6 +22,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/careers/:jobSlug" element={<JobDetails />} />
       </Routes>
       <Footer />
     </>
