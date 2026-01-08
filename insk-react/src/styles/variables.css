@@ -1,0 +1,39 @@
+:root {
+  /* ===== Brand Gradient ===== */
+  --brand-start: #f39806;     /* INSK Orange */
+  --brand-mid:   #ff6a3d;     /* Warm coral */
+  --brand-end:   #d44c0d;     /* Pink */
+
+  --brand-gradient: linear-gradient(
+    135deg,
+    var(--brand-start),
+    var(--brand-mid),
+    var(--brand-end)
+  );
+
+  /* ===== Solid fallbacks (important) ===== */
+  --brand: #f39806;
+  --brand-600: #ff6a3d;
+  --brand-700: #ff3d81;
+
+  --ring: rgba(243, 152, 6, 0.35);
+
+  /* ===== Text ===== */
+  --text: #0b1324;
+  --muted: #6b7280;
+
+  /* ===== Surfaces ===== */
+  --bg: #0a0b0f;
+  --card: #ffffff;
+
+  /* ===== UI ===== */
+  --radius: 16px;
+  --radius-sm: 12px;
+
+  /* ===== Shadows ===== */
+  --shadow: 0 8px 24px rgba(11, 19, 36, 0.08);
+  --shadow-lg: 0 20px 45px rgba(11, 19, 36, 0.15);
+
+  /* ===== Layout ===== */
+  --container: 1200px;
+}
